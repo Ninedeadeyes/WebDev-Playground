@@ -1,0 +1,24 @@
+
+@font-face{        /* Has to be in the same folder as css code to work  */ 
+
+    src: url(fonts/BungeeInline-Regular.ttf);
+    font-family:Bungee;
+}
+
+.header{
+    color: black;
+    display:flex;
+    position : fixed;   /*stays in the same place even if the page is scrolled */
+    background-color: lightblue;
+    justify-content: center;   /*set the alignment of primary axis (x) */ 
+    font-size: 30px;
+    font-family: Bungee;
+    height: 80px;
+    align-items:center;    /*set the alignment of secondary axis (y) */ 
+
+    top:0px;                /* so it is fixed to the sides of the page  */
+    left:0;
+    right:0;
+}
+
+
