@@ -2,3 +2,100 @@
     margin-top: 120px;
 
 }
+
+.frame{
+    margin-top: 50px;
+    position:relative;
+    margin:auto;
+    width : 600px;
+    height:400px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border-color: black;
+    border-style: groove;
+    Z-index: -1;
+}
+
+.circle1{
+    position:absolute;
+    background-color: purple;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    top:50px;
+    left:120px;
+    animation:bounce 4s ease-in infinite alternate  ; 
+    border-color: black;
+    border-style: groove;
+}
+
+.circle2{
+    left:270px;
+    background-color: red;  
+    animation-delay: .5s;
+}
+
+.circle3{
+    left:420px;
+    background-color: gray;  
+    animation:bounce2 4s ease-in infinite alternate  ; 
+    animation-delay: 1s;
+
+}
+
+@keyframes bounce {
+
+    0%{
+        transform:translateY(0px);
+    }
+    20%{
+        transform:translateY(300px);
+    }
+    40%{
+        transform:translateY(50px);
+    }
+    60%{
+        transform:translateY(300px);
+    }
+
+    80%{
+        transform:translateY(200px);
+    }
+
+    100%{
+        transform:translateY(300px);
+    }
+}
+
+@keyframes bounce2 {
+
+    0%{
+        transform:translateY(0px);
+    }
+    20%{
+        transform:translateY(308px);
+        background-color: purple ;
+   
+    }
+    40%{
+        transform:translateY(150px);
+        background-color: grey ;
+
+    }
+    60%{
+        transform:translateY(304px);
+        background-color: red ;
+    }
+   
+
+    80%{
+        transform:translateY(250px);
+        background-color: grey ;
+ 
+    }
+
+    100%{
+        transform:translateY(300px);
+        background-color: aquamarine ;
+    }
+}
