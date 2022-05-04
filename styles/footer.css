@@ -1,0 +1,29 @@
+.footer{
+    display:flex;
+    position : fixed;   /*stays in the same place even if the page is scrolled */
+    background-color: rgb(195, 228, 246);   /* rgb(156, 220, 223); */
+    justify-content: flex-start;   /*set the alignment of primary axis (x) */ 
+    height: 100px;
+    align-items:flex-start;    /*set the alignment of secondary axis (y) */ 
+    flex-direction:column;
+    font-family: 'Maven Pro', sans-serif;   /*links are from index.html */ 
+
+    bottom:0px;                /* so it is fixed to the sides of the page  */
+    left:0;
+    right:0;
+}
+
+.aboutMe{
+    color: black;
+    font-size: 16px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+.aboutMeInfo{
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+
+}

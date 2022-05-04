@@ -3,7 +3,7 @@
 
 }
 
-.frame{
+.animationFrame{
     margin-top: 50px;
     position:relative;
     margin:auto;
@@ -13,7 +13,6 @@
     border-radius: 20px;
     border-color: black;
     border-style: groove;
-    Z-index: -1;
 }
 
 .circle1{
@@ -24,7 +23,7 @@
     border-radius:50%;
     top:50px;
     left:120px;
-    animation:bounce 4s ease-in infinite alternate  ; 
+    animation:bounce1 4s ease-in infinite alternate  ; 
     border-color: black;
     border-style: groove;
 }
@@ -43,13 +42,13 @@
 
 }
 
-@keyframes bounce {
+@keyframes bounce1 {
 
     0%{
         transform:translateY(0px);
     }
     20%{
-        transform:translateY(300px);
+        transform:translateY(302px);
     }
     40%{
         transform:translateY(50px);
@@ -98,4 +97,18 @@
         transform:translateY(300px);
         background-color: aquamarine ;
     }
+}
+
+.introTitle{
+    font-size: 14px;
+    font-family: 'Maven Pro', sans-serif; 
+    text-decoration:underline;
+    
+}
+
+.music{
+    display: flex;
+    justify-content:center;
+    Z-index: 1;  /* so hide behind the header   */
+
 }
