@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,19 +8,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDevPlayground</title>
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
 </head>
 
 <body>
     <header class="header">                                    <!--Semantic element similar to div but makes it easier to read  -->
-    <p class="title"  >Web Dev Playground</p>
+    
+        <div class="title" >
+
+          <p>Web Dev Playground</p>
+
+        </div>
+
     </header>
 
     <main class="main">
 
-      <div class="frame">
+      <div class="animationFrame">
 
           <div class="circle1">
       
@@ -38,22 +50,46 @@
 
       </div>
 
-    
-        <p>Want to create a website but had no idea so I thought I will just create something that is cool,
-        potentially this could be a learning resource for others but at this point there are no clear purpose 
-        for this project. For the mean time enjoy my bouncing balls..  </p>
+      <div class="music">
+        <audio controls autoplay loop>
+            <source src="music/dream.mp3" type="audio/mp3">
+
+      </div>
+
+
+  
+
+
+      <div>
+        <p class="introTitle">INTRODUCTION</p>
+        <P>I want to create a website but had no idea so I thought I will just create something that is cool,
+          potentially this could be a learning resource for others but at this point there are no clear purpose 
+          for this project. You can visit my github page <a href="https://github.com/Ninedeadeyes">here.</a> <br>
+          For the mean time enjoy my bouncing balls and a music loop I wrote for one of my games.  </P>
+
+
+      </div>
+
 
        <p> 1st update Title <br> 
         
          1) downloaded font from google and applied it to my header  <br>  
          2) set up fixed position header                         <br>  
          3) set up style folder. 
-
+         
       </p>  
 
       <p> 2nd update  Animation  <br> 
         
         1) Bouncing balls animation  <br>  
+
+      </p>
+
+      <p> 3rd update Footer/music/Introduction  <br> 
+        
+        1) Created Footer    <br>  
+        2) Formatted Introduction included HTML Links <br>
+        3) implemented music loop.  
 
       </p>
 
@@ -96,9 +132,35 @@
         
         Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. 
         
+
+   
     
     </main>
+    
 
+    <footer class="footer">
+
+      <div class="aboutMe " >
+
+        <p>About me:</p>
+
+      </div>
+
+      <div class="aboutMeInfo">
+
+        <p>As a hobbyist programmer, my general philosophy towards programming is to keep it 'fun'. I merely enjoy building cool things and learning at my own pace :) 
+        <br> I also really like KFC. Not just any Fried Chicken it has to be KFC.. It is those herbs and spices that takes KFC to another level of fried chicken mastery.    
+       </p>
+
+
+
+
+      </div>
+
+
+
+
+    </footer>
      <script src="./main.js"></scriptsrc></script>
 
 </body>

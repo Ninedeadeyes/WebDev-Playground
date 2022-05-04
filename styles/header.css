@@ -6,19 +6,22 @@
 }
 
 .header{
-    color: black;
     display:flex;
     position : fixed;   /*stays in the same place even if the page is scrolled */
-    background-color: lightblue;
+    background-color:rgb(195, 228, 236);/* rgb(173, 228, 223); */
     justify-content: center;   /*set the alignment of primary axis (x) */ 
-    font-size: 30px;
-    font-family: Bungee;
     height: 80px;
     align-items:center;    /*set the alignment of secondary axis (y) */ 
-
+    Z-index: 2;              /* everything hides behinder the header   */
     top:0px;                /* so it is fixed to the sides of the page  */
     left:0;
     right:0;
+}
+
+.title{
+    color: black;
+    font-size: 30px;
+    font-family: Bungee;
 }
 
 
