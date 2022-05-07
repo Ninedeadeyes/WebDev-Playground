@@ -5,7 +5,7 @@
     font-family:Bungee;
 }
 
-.header{
+.headContainer{
     display:flex;
     position : fixed;   /*stays in the same place even if the page is scrolled */
     background-color:rgb(195, 228, 236);/* rgb(173, 228, 223); */
@@ -18,10 +18,14 @@
     right:0;
 }
 
-.title{
+
+
+
+.headTitle{
     color: black;
     font-size: 30px;
     font-family: Bungee;
 }
+
 
 

@@ -22,13 +22,9 @@
 </head>
 
 <body>
-    <header class="header">                                    <!--Semantic element similar to div but makes it easier to read  -->
+    <header class="headContainer">                                    <!--Semantic element similar to div but makes it easier to read  -->
     
-        <div class="title" >
-
-          <p>Web Dev Playground</p>
-
-        </div>
+        <div class="headTitle"> Web Dev Playground</div>
 
     </header>
 
@@ -50,22 +46,62 @@
 
       </div>
 
-      <div class="music">
+      <!-- Undicided about music for the time being. <div class="music">
         <audio controls autoplay loop>
-            <source src="music/dream.mp3" type="audio/mp3">
+            <source src="music/dream.mp" type="audio/mp3">
 
-      </div>
+      </div> -->
 
 
   
 
 
       <div>
-        <p class="introTitle">INTRODUCTION</p>
-        <P>I want to create a website but had no idea so I thought I will just create something that is cool,
-          potentially this could be a learning resource for others but at this point there are no clear purpose 
-          for this project. You can visit my github page <a href="https://github.com/Ninedeadeyes">here.</a> <br>
-          For the mean time enjoy my bouncing balls and a music loop I wrote for one of my games.  </P>
+        <p class="title">INTRODUCTION</p>
+        <p>Initially I created this project with no clear purpose but after some consideration I have decided this is going
+          to be my personal scrap book focus on HTML and CSS. I will probably use this as a 'reference' guide like I have done 
+          with my <a href="https://github.com/Ninedeadeyes/15-mini-python-games-tutorial-series" target="_blank">my python tutorial series.</a>
+          The truth is I am my own biggest fan and it is not because I am a great coder merely because I am my own best 'teacher'. I write in a way that makes 
+          sense to me espicially when I am relearning something. Many of my more complex python projects like 
+          <a href="https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand" target="_blank">this</a> are built with the back bone of the tutorial series.
+          Even though my website is quite bare for the mean time enjoy my bouncing balls. 
+         </p> 
+      
+        <p class="title">CSS BOX MODEL</p>
+        <P class="cssBoxModel">Determines how much space an element takes up and how far away elements are from each other.<br><br>
+          <strong>Content</strong> - The content of the box, where text and images appear <br><br>
+          <strong>Padding</strong> - Clears an area around the content. The padding is transparent<br><br>
+          <strong>Border</strong> - A border that goes around the padding and Content<br><br>
+          <strong>Margin</strong> - Clears an area outside the border. The margin is transparent 
+        </p>
+        <p class="cssBoxModel "><img src=images/BoxImage.png> </p>
+        <p class="cssBoxModel">The content box is defined using width and height properties. So if we want a box with ten pixels of
+           padding and a border of two pixels and a total width of 300 pixels, we need to account for the added width from the 
+           padding and border when we define the content width in the CSS.<br><br>This can be frustrating, especially if we need to adjust
+           the padding on an element. In order to make this easier, we can use the <strong>box-sizing property </strong>to change which box 
+           the height and width properties are applied to. <br><br> The width and height properties include the content, padding, 
+           and border, but do not include the margin. </p>
+           <p class="boxSizing  ">Example of box sizing. 200px box </p>
+           <p class="boxSizing boxSizingAlt  ">Example of box sizing. 200px box with 5px border width and 10px padding </p>
+
+
+        <p class="title">CCS DISPLAY PROPERTY(Block, Inline Block, Inline ) </p>
+
+        <p class="block">Block element will take up the whole line regardless of the size</p>
+        <p class="block">This is an example of block element. By default paragraph elements are block elements</p>
+        
+        <p class="inline1"> Inline block element takes as much as it needs </p>
+
+
+        <p class="inline1 inline2">this is an example of using inline box</p>
+
+        <p class="inline1 inline3">this is an example of using inline box</p>
+
+        <p class="inline1 inline4">this is an example of using inline box</p>
+
+        <p>Inline element appears within a line of text <strong>like this.</strong> A very useful Inline element is span. When used with CSS the span element can be used 
+        to style part of a text like this <span style="color:blue;font-weight:bold">"Hello I am blue thanks to span !!"</span> </p>
+        
 
 
       </div>

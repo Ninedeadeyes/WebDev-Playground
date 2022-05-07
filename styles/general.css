@@ -2,3 +2,6 @@ div{
     margin-top: 0px;
     margin-bottom: 0px;   /* remove auto margin from all div */
 }    
+
+
+p {font-size: 17px;}    /* These are call tags, convenitent way to maek sure your paragraphs fonts are all the same. */

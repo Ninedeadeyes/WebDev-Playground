@@ -1,7 +1,7 @@
 .footer{
     display:flex;
     position : fixed;   /*stays in the same place even if the page is scrolled */
-    background-color: rgb(195, 228, 246);   /* rgb(156, 220, 223); */
+    background-color:lightblue;  /* rgb(156, 220, 223); */
     justify-content: flex-start;   /*set the alignment of primary axis (x) */ 
     height: 100px;
     align-items:flex-start;    /*set the alignment of secondary axis (y) */ 
