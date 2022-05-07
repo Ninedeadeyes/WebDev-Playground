@@ -1,3 +1,6 @@
+
+
+
 .main{
     margin-top: 120px;
 
@@ -9,7 +12,7 @@
     margin:auto;
     width : 600px;
     height:400px;
-    background-color: aquamarine;
+    background-color: lightblue;
     border-radius: 20px;
     border-color: black;
     border-style: groove;
@@ -99,7 +102,7 @@
     }
 }
 
-.introTitle{
+.title{
     font-size: 14px;
     font-family: 'Maven Pro', sans-serif; 
     text-decoration:underline;
@@ -109,6 +112,66 @@
 .music{
     display: flex;
     justify-content:center;
-    Z-index: 1;  /* so hide behind the header   */
+}
 
+.inline1{
+    display:inline-block;
+    height: 100px;
+    width: 400px;
+    background-color: palevioletred;
+    margin-left:50px;
+
+}
+
+.inline2{
+
+    background-color: lightgrey;
+    vertical-align:top;      /* This is used so it align from the top as it will not depending on the amount of text in <p>  */
+}
+
+.inline3{
+    background-color: greenyellow;
+    vertical-align:top;     
+
+}
+
+.inline3{
+    background-color: lightgreen;
+    vertical-align:top;     
+}
+
+.inline4{
+    background-color: lightblue;
+    vertical-align:top;     
+}
+
+
+.cssBoxModel{
+    display:inline-block;
+    height:330px;
+    width:400px;
+    vertical-align:top; 
+}
+
+.boxSizing {
+display:inline-block; 
+background-color: lightgreen;
+height:200px; 
+width:200px;
+box-sizing:border-box;
+margin-left:50px;
+}
+
+.boxSizingAlt{
+background-color: lightblue;    
+border-style: groove;
+border-color: black;
+border-width: 5px;
+padding:10px;
+vertical-align:top; 
+
+}
+.block{
+    background-color: lightblue; 
+    width:700px;
 }
