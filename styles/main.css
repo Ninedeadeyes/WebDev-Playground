@@ -2,7 +2,8 @@
 
 
 .main{
-    margin-top: 120px;
+    margin-top: 120px;      /* So header doesn't cover up the top */
+    margin-bottom:120px;   /* So footer doesn't cover up the bottom  */
 
 }
 
@@ -118,7 +119,7 @@
     display:inline-block;
     height: 100px;
     width: 400px;
-    background-color: palevioletred;
+    background-color: lightpink;
     margin-left:50px;
 
 }
@@ -174,4 +175,79 @@ vertical-align:top;
 .block{
     background-color: lightblue; 
     width:700px;
+}
+
+.flexContainer{
+    display:flex;
+    margin:10px;
+    padding:20px;
+    background-color: lightblue;
+    flex-wrap:wrap;
+    height:auto;
+    min-width:1000px
+
+
+}
+
+.flexInfo {    
+                   
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width:50px;
+    height:30px
+    
+
+
+}
+
+.flexColumn{
+    flex-direction:column;
+    background-color: lightgreen;
+    height:200px;
+ 
+}
+
+.flexJustifyContent {
+
+    justify-content:center;
+    background-color: lightpink;
+}
+
+.flexAlignItems {
+    align-items:flex-end;
+    background-color: lightgray;
+}
+
+.flexAlignContent {
+    flex-direction:column;
+    align-content: center;
+    height:200px;
+    background-color:peachpuff;
+}
+
+.flexGap {
+    gap:100px 50px; 
+    background-color:lightyellow;  
+}
+
+
+.footerspace{
+
+    height: 500px;
+    width: 20px;
+
+}
+
+
+.flexContainerItem{
+    display:flex;
+    margin:10px;
+    padding:20px;
+    background-color: lightblue;
+    height:200px;
+    width: 400px;
+    min-width:400px;
+
 }

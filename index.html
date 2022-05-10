@@ -62,7 +62,7 @@
           to be my personal scrap book focus on HTML and CSS. I will probably use this as a 'reference' guide like I have done 
           with my <a href="https://github.com/Ninedeadeyes/15-mini-python-games-tutorial-series" target="_blank">my python tutorial series.</a>
           The truth is I am my own biggest fan and it is not because I am a great coder merely because I am my own best 'teacher'. I write in a way that makes 
-          sense to me espicially when I am relearning something. Many of my more complex python projects like 
+          sense to me which helps when I need to relearn something.  Many of my more complex python projects like 
           <a href="https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand" target="_blank">this</a> are built with the back bone of the tutorial series.
           Even though my website is quite bare for the mean time enjoy my bouncing balls. 
          </p> 
@@ -93,86 +93,313 @@
         <p class="inline1"> Inline block element takes as much as it needs </p>
 
 
-        <p class="inline1 inline2">this is an example of using inline box</p>
+        <p class="inline1 inline2">This is an example of using inline box</p>
 
-        <p class="inline1 inline3">this is an example of using inline box</p>
+        <p class="inline1 inline3">This is an example of using inline box</p>
 
-        <p class="inline1 inline4">this is an example of using inline box</p>
+        <p class="inline1 inline4">This is an example of using inline box</p>
 
         <p>Inline element appears within a line of text <strong>like this.</strong> A very useful Inline element is span. When used with CSS the span element can be used 
         to style part of a text like this <span style="color:blue;font-weight:bold">"Hello I am blue thanks to span !!"</span> </p>
         
+        <p class="title">FLEX BOX</p>
 
+        <p>The Flexbox Layout (Flexible Box) module aims at providing a more efficient way to lay out, align and distribute space among items in a container, 
+          even when their size is unknown and/or dynamic (thus the word “flex”).  The main idea behind the flex layout is to give the container the ability 
+          to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices
+          and screen sizes). A flex container expands items to fill available free space or shrinks them to prevent overflow.<br><br>
+          Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. 
+          Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the 
+          children (said “flex items”).
+        
+        
+        </p> 
+
+      <p>The flex container properties are:</p>
+
+      <ul>
+        <li>flex-direction :Defines in which direction the container wants to stack the flex items.</li>
+        <li>flex-wrap: Specifies whether the flex items should wrap or not.</li>
+        <li>flex-flow: Shorthand property for setting both the flex-direction and flex-wrap properties.</li>
+        <li>justify-content :Set the alignment of primary axis (x) </li>
+        <li>align-items: Set the alignment of secondary axis (y)</li>
+        <li>Gap: explicitly controls the space between flex items </li>
+        <li>align-content: Property sets the distribution of space between and around content items. <br> Note: This property only takes effect on multi-line flexible containers, where flex-wrap is set. A single-line flexible container (i.e. where flex-wrap is set to its default value, no-wrap) will not reflect align-content.</li>
+      </ul>
+      
+  <p><strong>Default Flexbox with wrap</strong></p>
+
+  <div> 
+      <div class="flexContainer">  
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+
+    </div>
+       
+       <p><strong>Direction (Column) </strong></p>
+
+    <div class="flexContainer flexColumn"> 
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+    </div>
+
+       <p><strong>Justify Content (Center) </strong> </p>
+       
+    <div class="flexContainer flexJustifyContent "> 
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+    </div>
+
+       <p><strong>Align Items (Flex-End)</strong></p>
+
+    <div class="flexContainer flexAlignItems"> 
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+    </div>
+
+    <p><strong>Gap</strong></p>
+
+    <div class="flexContainer flexGap "> 
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+      
+
+
+
+
+    </div>
+       
+       <p><strong>Align Content (Center) with Direction(Column)</strong>  </p>
+    <div class="flexContainer flexAlignContent">   
+
+      <div class="flexInfo">1</div>
+
+      <div class="flexInfo">2</div>
+
+      <div class="flexInfo">3</div>
+
+      <div class="flexInfo">4</div>
+
+    </div>
+  </div>
+
+        
+      <p>The flex items properties are:</p>
+
+      <ul>
+        <li>order: The order property specifies the order of the flex items.</li>
+        <li>flex-grow : The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.</li>
+        <li>flex-shrink : The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.</li>
+        <li>flex-basis :The flex-basis property specifies the initial length of a flex item.</li>
+        <li>flex :The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.</li>
+        <li>align-self :Specifies the alignment for a flex item (overrides the flex container's align-items property).</li>
+
+      </ul>
+
+      <P>The direct child elements of a flex container automatically becomes flexible (flex) items.</p>
+      
+
+      <div>  
+
+      <div class="flexContainerItem"  style="background-color:white; width:auto;">
+
+        <p style= "margin-left:40px;"><strong>order</strong></p>
+        <div class="flexContainerItem">  
+
+          <div class="flexInfo" style="order: 3">1</div>
+  
+          <div class="flexInfo" style="order: 2">2</div>
+  
+          <div class="flexInfo" style="order: 4">3</div>
+  
+          <div class="flexInfo" style="order: 1">4</div>
+
+        </div>
+
+
+         <p><strong>flex-grow</strong></p>
+         <div class="flexContainerItem"  style="background-color:lightgreen; width:920px;">  
+
+          <div class="flexInfo" style="flex-grow: 1">1</div>
+  
+          <div class="flexInfo" style="flex-grow: 4">2</div>
+  
+          <div class="flexInfo" style="flex-grow: 1">3</div>
+  
+          <div class="flexInfo" style="flex-grow: 4">4</div>
+  
+         </div>
 
       </div>
 
+      <div class="flexContainerItem"  style="background-color:white; width:auto;">
 
-       <p> 1st update Title <br> 
-        
-         1) downloaded font from google and applied it to my header  <br>  
-         2) set up fixed position header                         <br>  
-         3) set up style folder. 
-         
-      </p>  
+         <p><strong>flex-shrink </strong></p>
+         <div class="flexContainerItem" style="background-color:lightpink">  
 
-      <p> 2nd update  Animation  <br> 
-        
-        1) Bouncing balls animation  <br>  
+          <div class="flexInfo">1</div>
 
-      </p>
+          <div class="flexInfo" style="flex-shrink:3">2</div>
+  
+          <div class="flexInfo">3</div>
+  
+          <div class="flexInfo"style="flex-shrink:3">4</div>
 
-      <p> 3rd update Footer/music/Introduction  <br> 
-        
-        1) Created Footer    <br>  
-        2) Formatted Introduction included HTML Links <br>
-        3) implemented music loop.  
+         </div>
 
-      </p>
+         <p><strong>flex-basis</strong></p>
+         <div class="flexContainerItem" style="background-color:lightgray">  
 
-         <p>Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestiae harum neque! Mollitia, vitae ad cumque consequatur similique ipsa repellendus. Tenetur qui distinctio consequuntur sed facere blanditiis dignissimos odit dolore? Potentially it could be a learning resource for others or myself but at the early stage anything goes</p>
-    
-     <p>Lorem, ipsum dolor sit amet consecLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
+          <div class="flexInfo">1</div>
 
-        Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-        
-        Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. 
-        
-        Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. 
-        
-        Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. 
-        
-        Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
-        
-        Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. 
-        
-        In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. 
-        
-        Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. 
-        
-        Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. 
-        tur adipisicing elit. Consectetur porro, odio modi tempore accusamus ad. Quibusdam accusantium iure eos tempora repellendus fugit quo dolorem libero incidunt? Officiis soluta hic corporis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
+          <div class="flexInfo" style="flex-basis:400px">2</div>
+  
+          <div class="flexInfo">3</div>
+  
+          <div class="flexInfo">4</div>
 
-        Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-        
-        Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. 
-        
-        Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. 
-        
-        Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. 
-        
-        Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
-        
-        Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. 
-        
-        In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. 
-        
-        Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. 
-        
+        </div>
 
-   
+        <p><strong>align-self</strong></p>
+        <div class="flexContainerItem" style="background-color:peachpuff">  
+
+          <div class="flexInfo" style="align-self:flex-start">1</div>
+
+          <div class="flexInfo" style="align-self:center">2</div>
+  
+          <div class="flexInfo"style="align-self:Flex-End">3</div>
+  
+          <div class="flexInfo">4</div>
+
+        </div>
+      </div>
+    </div>
+     
+     
+
+
     
     </main>
     
+    <div class="footspace">
+
+
+    </div>
 
     <footer class="footer">
 
@@ -192,6 +419,7 @@
 
 
       </div>
+    
 
 
 
