@@ -104,7 +104,7 @@
 }
 
 .title{
-    font-size: 14px;
+    font-size: 17px;
     font-family: 'Maven Pro', sans-serif; 
     text-decoration:underline;
     
@@ -157,8 +157,8 @@
 .boxSizing {
 display:inline-block; 
 background-color: lightgreen;
-height:200px; 
-width:200px;
+height:150px; 
+width:150px;
 box-sizing:border-box;
 margin-left:50px;
 }
@@ -175,6 +175,12 @@ vertical-align:top;
 .block{
     background-color: lightblue; 
     width:700px;
+}
+
+.flexBox{
+    display:flex;
+    width:auto;
+    height:auto;
 }
 
 .flexContainer{
@@ -218,6 +224,7 @@ vertical-align:top;
 .flexAlignItems {
     align-items:flex-end;
     background-color: lightgray;
+    height:200px;
 }
 
 .flexAlignContent {
@@ -250,4 +257,32 @@ vertical-align:top;
     width: 400px;
     min-width:400px;
 
+}
+
+.relative{
+    display:inline-block;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid lightpink;
+    vertical-align:top; 
+    left:20px;
+}
+
+.absolute{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid lightgreen;
+}
+
+.absoluteButton{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 70px;
+    height: 80px;
+    border: 3px solid lightgreen;
 }

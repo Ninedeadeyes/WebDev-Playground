@@ -8,3 +8,7 @@ p {font-size: 17px;}    /* These are call tags, convenitent way to maek sure you
 
 
 ul{font-size: 17px;}  
+
+ol{font-size: 17px;
+   font-family: 'Maven Pro', sans-serif; 
+}  
