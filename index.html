@@ -46,26 +46,29 @@
 
       </div>
 
-      <!-- Undicided about music for the time being. <div class="music">
+      <div class="music">
         <audio controls autoplay loop>
-            <source src="music/dream.mp" type="audio/mp3">
+            <source src="music/hope.mp3" type="audio/mp3">
 
-      </div> -->
-
-
-  
-
-
-      <div>
+      </div>
+      
         <p class="title">INTRODUCTION</p>
         <p>Initially I created this project with no clear purpose but after some consideration I have decided this is going
           to be my personal scrap book focus on HTML and CSS. I will probably use this as a 'reference' guide like I have done 
           with my <a href="https://github.com/Ninedeadeyes/15-mini-python-games-tutorial-series" target="_blank">my python tutorial series.</a>
           The truth is I am my own biggest fan and it is not because I am a great coder merely because I am my own best 'teacher'. I write in a way that makes 
           sense to me which helps when I need to relearn something.  Many of my more complex python projects like 
-          <a href="https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand" target="_blank">this</a> are built with the back bone of the tutorial series.
-          Even though my website is quite bare for the mean time enjoy my bouncing balls. 
-         </p> 
+          <a href="https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand" target="_blank">this, were built from the backbone of previous projects like my tutorial series. </a>. These are the topics that I will cover for this project 
+          which should be enough to provide basic understanding of layout and positioning to make most hobbyist websites.  </p> 
+
+          <ol>
+            <li>CSS BOX MODEL</li>
+            <li>CCS DISPLAY PROPERTY </li>
+            <li>FLEX BOX</li>
+            <li>THE POSITION PROPERTY</li>
+          </ol>
+
+          <p>If learning the basic of CSS layout does not interest you, well you can always enjoy my bouncing balls and music loop. </p> 
       
         <p class="title">CSS BOX MODEL</p>
         <P class="cssBoxModel">Determines how much space an element takes up and how far away elements are from each other.<br><br>
@@ -81,11 +84,11 @@
            the padding on an element. In order to make this easier, we can use the <strong>box-sizing property </strong>to change which box 
            the height and width properties are applied to. <br><br> The width and height properties include the content, padding, 
            and border, but do not include the margin. </p>
-           <p class="boxSizing  ">Example of box sizing. 200px box </p>
-           <p class="boxSizing boxSizingAlt  ">Example of box sizing. 200px box with 5px border width and 10px padding </p>
+           <p class="boxSizing  ">Example of box sizing. 150px box </p>
+           <p class="boxSizing boxSizingAlt  ">Example of box sizing. 150px box with 5px border width and 10px padding </p>
 
 
-        <p class="title">CCS DISPLAY PROPERTY(Block, Inline Block, Inline ) </p>
+        <p class="title">CCS DISPLAY PROPERTY </p>
 
         <p class="block">Block element will take up the whole line regardless of the size</p>
         <p class="block">This is an example of block element. By default paragraph elements are block elements</p>
@@ -277,11 +280,6 @@
 
       <div class="flexInfo">4</div>
 
-      
-
-
-
-
     </div>
        
        <p><strong>Align Content (Center) with Direction(Column)</strong>  </p>
@@ -316,7 +314,7 @@
 
       <div>  
 
-      <div class="flexContainerItem"  style="background-color:white; width:auto;">
+      <div class="flexBox">
 
         <p style= "margin-left:40px;"><strong>order</strong></p>
         <div class="flexContainerItem">  
@@ -333,7 +331,7 @@
 
 
          <p><strong>flex-grow</strong></p>
-         <div class="flexContainerItem"  style="background-color:lightgreen; width:920px;">  
+        <div class="flexContainerItem"  style="background-color:lightgreen; width:920px;">  
 
           <div class="flexInfo" style="flex-grow: 1">1</div>
   
@@ -343,14 +341,14 @@
   
           <div class="flexInfo" style="flex-grow: 4">4</div>
   
-         </div>
+        </div>
 
       </div>
 
-      <div class="flexContainerItem"  style="background-color:white; width:auto;">
+      <div class="flexBox">
 
          <p><strong>flex-shrink </strong></p>
-         <div class="flexContainerItem" style="background-color:lightpink">  
+        <div class="flexContainerItem" style="background-color:lightpink">  
 
           <div class="flexInfo">1</div>
 
@@ -360,10 +358,10 @@
   
           <div class="flexInfo"style="flex-shrink:3">4</div>
 
-         </div>
+        </div>
 
          <p><strong>flex-basis</strong></p>
-         <div class="flexContainerItem" style="background-color:lightgray">  
+        <div class="flexContainerItem" style="background-color:lightgray">  
 
           <div class="flexInfo">1</div>
 
@@ -384,20 +382,40 @@
   
           <div class="flexInfo"style="align-self:Flex-End">3</div>
   
-          <div class="flexInfo">4</div>
+        <div class="flexInfo">4</div>
 
         </div>
       </div>
     </div>
-     
-     
 
+    <p class="title">THE POSITION PROPERTY</p>
+
+    <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+    <p>There are five different position values:</p>
+
+    <ul>
+      <li>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page: <br>
+         HTML elements are positioned static by default.</li><br>
+      <li>An element with position: relative; is positioned relative to its normal position.<br>
+          Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position</li><br>
+
+      <li>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.</li><br>
+      <li>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). <br>
+        However; if an absolute positioned element has no positioned ancestors, it uses the document body</li><br>
+      <li>An element with position: sticky; is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position.</li><br>
+     </ul>
+
+    <p class="inline1">The most useful positions are <strong>relative and absolute</strong> as you will be able to move a div with absolute position in relations within a div with a relative position whilst both the header and footer are good examples of fixed position. </p>
+
+    <div class="relative">This div element has position: relative
+      <div class="absolute">This div element has position: absolute</div>
+      <button class="absoluteButton">Button with position: absolute</button>
+    </div>
 
     
-    </main>
+  </main>
     
     <div class="footspace">
-
 
     </div>
 
@@ -416,13 +434,8 @@
        </p>
 
 
-
-
       </div>
-    
-
-
-
+  
 
     </footer>
      <script src="./main.js"></scriptsrc></script>
