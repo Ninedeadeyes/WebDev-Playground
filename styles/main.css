@@ -304,7 +304,7 @@ vertical-align:top;
 
 .positionInfo{
     display:inline-block;
-    height: 120px;
+    height: fit-content;
     width: 300px;
     background-color: lightpink;
     margin-left:50px;
