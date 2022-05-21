@@ -1,0 +1,86 @@
+@media(max-width:1800px){      /* I have a big pc monitor so this  provide responsive design for your average pc monitors */
+
+
+    .cssBoxModelAlt{
+        display:block; 
+        width:600px;
+        height:200px;
+
+    }
+
+}
+
+@media(max-width:1200px){      /* Reponsive design for smaller pc monitors */
+
+    .inline1{
+        display:inline-block;
+        height: 75px;
+        width: 200px;
+        margin-left:25px;
+    }
+    
+    .flexInfo {    
+
+        margin: 5px;
+        padding: 10px;
+        font-size: 15px;
+        width:25px;
+        height:15px
+         
+    }
+
+
+    .footer{
+        height:150px;
+    }
+
+    .main{
+
+        margin-bottom:170px; 
+    }
+
+    
+}
+
+
+@media(max-width:750px){      /*Reponsive design for tablet  */
+
+    .flexInfo {    
+
+        margin: 3px;
+        padding: 8px;
+        font-size: 10px;
+        width:15px;
+        height:8px
+         
+    }
+
+
+    .footer{
+        height:180px;
+    }
+
+    .main{
+
+        margin-bottom:200px; 
+    }
+
+    }
+    
+    @media(max-width:600px){      /*Reponsive design for smaller tablet  */
+
+        .flexInfo {    
+    
+            margin: 3px;
+            padding: 5px;
+            font-size: 8px;
+            width:10px;
+            height:5px 
+        }
+
+
+        }
+
+
+
+    

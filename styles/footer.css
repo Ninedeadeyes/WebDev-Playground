@@ -7,7 +7,6 @@
     align-items:flex-start;    /*set the alignment of secondary axis (y) */ 
     flex-direction:column;
     font-family: 'Maven Pro', sans-serif;   /*links are from index.html */ 
-
     bottom:0px;                /* so it is fixed to the sides of the page  */
     left:0;
     right:0;
@@ -15,7 +14,6 @@
 
 .aboutMe{
     color: black;
-    font-size: 16px;
     height: 30px;
     padding-left: 10px;
 
@@ -23,7 +21,6 @@
 
 .aboutMeInfo{
     color: black;
-    font-size: 14px;
     padding-left: 10px;
 
 }
