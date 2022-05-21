@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/mediaQuery.css">
 
 </head>
 
@@ -53,19 +54,19 @@
       </div>
       
         <p class="title">INTRODUCTION</p>
-        <p>Initially I created this project with no clear purpose but after some consideration I have decided this is going
-          to be my personal scrap book focus on HTML and CSS. I will probably use this as a 'reference' guide like I have done 
+        <p>Initially I created this project with no clear purpose but after some consideration I have decided this is going to be my personal scrap book focus on HTML and CSS. I will probably use this as a 'reference' guide like I have done 
           with my <a href="https://github.com/Ninedeadeyes/15-mini-python-games-tutorial-series" target="_blank">my python tutorial series.</a>
-          The truth is I am my own biggest fan and it is not because I am a great coder merely because I am my own best 'teacher'. I write in a way that makes 
-          sense to me which helps when I need to relearn something.  Many of my more complex python projects like 
-          <a href="https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand" target="_blank">this</a>, were built from the backbone of previous projects like my tutorial series. </a>. These are the topics that I will cover for this project 
-          which should be enough to provide basic understanding of layout and positioning to make most hobbyist websites.  </p> 
+          Many of my more complex python projects like <a href="https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand" target="_blank">this</a>, were built from the backbone of previous projects like my tutorial series. </a> I will cover the below 5 topics which should be  
+          enough to provide basic understanding of layout and positioning to make most hobbyist websites. I have made this page responsive to both smaller pc monitors and tablets, maybe one day I will make it responsive for smartphones but rather focus on 
+          completing the content first. </p> 
 
           <ol>
             <li>CSS BOX MODEL</li>
             <li>CCS DISPLAY PROPERTY </li>
             <li>FLEX BOX</li>
             <li>THE POSITION PROPERTY</li>
+            <li>CSS GRID LAYOUT ( INCOMPLETE ) </li>
+
           </ol>
 
           <p>If learning the basic of CSS layout does not interest you, well you can always enjoy my bouncing balls and music loop. </p> 
@@ -78,7 +79,7 @@
           <strong>Margin</strong> - Clears an area outside the border. The margin is transparent 
         </p>
         <p class="cssBoxModel "><img src=images/BoxImage.png> </p>
-        <p class="cssBoxModel">The content box is defined using width and height properties. So if we want a box with ten pixels of
+        <p class="cssBoxModelAlt">The content box is defined using width and height properties. So if we want a box with ten pixels of
            padding and a border of two pixels and a total width of 300 pixels, we need to account for the added width from the 
            padding and border when we define the content width in the CSS.<br><br>This can be frustrating, especially if we need to adjust
            the padding on an element. In order to make this easier, we can use the <strong>box-sizing property </strong>to change which box 
@@ -331,7 +332,7 @@
 
 
          <p><strong>flex-grow</strong></p>
-        <div class="flexContainerItem"  style="background-color:lightgreen; width:920px;">  
+        <div class=" flexContainerItem flexContainerItemAlt">  
 
           <div class="flexInfo" style="flex-grow: 1">1</div>
   
@@ -405,7 +406,7 @@
       <li>An element with position: sticky; is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position.</li><br>
      </ul>
 
-    <p class="inline1">The most useful positions are <strong>relative and absolute</strong> as you will be able to move a div with absolute position in relations within a div with a relative position whilst both the header and footer are good examples of fixed position. </p>
+    <p class="positionInfo">The most useful positions are <strong>relative and absolute</strong> as you will be able to move a div with absolute position in relations within a div with a relative position whilst both the header and footer are good examples of fixed position. </p>
 
     <div class="relative">This div element has position: relative
       <div class="absolute">This div element has position: absolute</div>
