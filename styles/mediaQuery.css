@@ -67,7 +67,7 @@
 
     }
     
-    @media(max-width:600px){      /*Reponsive design for smaller tablet  */
+    @media(max-width:600px){      /*Reponsive design for smaller tablet and large smartphones   */
 
         .flexInfo {    
     
@@ -76,6 +76,14 @@
             font-size: 8px;
             width:10px;
             height:5px 
+        }
+
+
+        .inline1{
+            display:inline-block;
+            height: 60px;
+            width: 150px;
+            margin-left:15px;
         }
 
 
